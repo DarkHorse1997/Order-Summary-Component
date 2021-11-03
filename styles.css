@@ -16,8 +16,9 @@ body {
 
 section {
     margin: 20px;
-    min-width: 375px;
-    max-width: 375px;
+    padding-bottom: 20px;
+    min-width: 395px;
+    max-width: 395px;
     display: flex;
     flex-direction: column;
     border-radius: 15px;
@@ -37,14 +38,14 @@ p {
     margin: 0 15%;
     text-align: center;
     color: hsl(224, 23%, 55%);
-    width: 70%;
+    width: 80%;
 }
 .illustration {
     border-radius: 15px 15px 0 0;
 }
 .pricing-container {
     display: flex;
-    width: 80%;
+    width: 85%;
     justify-content: space-evenly;
     background-color: hsl(225, 100%, 98%);
     border-radius: 15px;
@@ -74,7 +75,7 @@ p {
 }
 .payment {
     background-color: hsl(245, 75%, 52%);
-    width: 80%;
+    width: 85%;
     color: white;
     font-weight: 900;
     padding: 15px 0;
