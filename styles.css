@@ -64,6 +64,11 @@ p {
     border: none;
     text-decoration: underline;
 }
+.change:hover {
+    cursor: pointer;
+    text-decoration: none;
+    opacity: 60%;
+}
 .payment {
     background-color: hsl(245, 75%, 52%);
     width: 80%;
@@ -72,12 +77,20 @@ p {
     padding: 15px 0;
     border-radius: 15px;
 }
+.payment:hover {
+    cursor: pointer;
+    opacity: 60%;
+}
 .cancel-order {
     background-color: inherit;
     border: none;
     font-weight: 900;
     padding-bottom: 20px;
     color: hsl(224, 23%, 55%);
+}
+.cancel-order:hover {
+    cursor: pointer;
+    color: hsl(223, 47%, 23%);
 }
 @media (min-width: 375px) {
     body {
