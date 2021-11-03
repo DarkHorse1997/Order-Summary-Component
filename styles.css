@@ -1,9 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
 body {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
     background-color: hsl(225, 100%, 94%);
     background-image: url("./images/pattern-background-mobile.svg");
-
     background-repeat: no-repeat;
     font-size: 16px;
     font-family: "Red Hat Display", sans-serif;
@@ -14,29 +15,34 @@ body {
 
 section {
     margin: 20px;
-    min-width: 365px;
-    max-width: 365px;
+    min-width: 375px;
+    max-width: 375px;
     display: flex;
     flex-direction: column;
     border-radius: 15px;
     align-items: center;
     overflow: hidden;
-    height: 600px;
+    height: 550px;
     justify-content: space-between;
     background-color: white;
 }
+h1 {
+    margin: 0;
+    margin-top: 15px;
+}
 p {
     font-weight: 500;
-    margin: 0 20px;
+    margin: 0 15%;
     text-align: center;
     color: hsl(224, 23%, 55%);
+    width: 70%;
 }
 .illustration {
     border-radius: 15px 15px 0 0;
 }
 .pricing-container {
     display: flex;
-    width: 90%;
+    width: 80%;
     justify-content: space-evenly;
     background-color: hsl(225, 100%, 98%);
     border-radius: 15px;
@@ -55,11 +61,11 @@ p {
     text-decoration: none;
     background-color: inherit;
     border: none;
-    color: hsl(245, 75%, 52%);
+    text-decoration: underline;
 }
 .payment {
     background-color: hsl(245, 75%, 52%);
-    width: 90%;
+    width: 80%;
     color: white;
     font-weight: 900;
     padding: 15px 0;
